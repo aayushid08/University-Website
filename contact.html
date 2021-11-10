@@ -1,0 +1,143 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="university.css" rel="stylesheet" type="text/css"/>
+    
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,200&display=swap" rel="stylesheet">
+        
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- font awesome and cnd -->
+    </head>
+
+    
+    <body>
+        
+        <section class="sub-header" style="height: 50vh; width: 100%;
+                 background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/2.jpg);
+                 background-position: center; background-size: cover; text-align: center; color: #fff;">
+            <nav>
+                <a href="university.html"><img src="img/xx.jpeg" style="height: 40px; width: 140px;"></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>          <!-- font awesome - times -->
+                    <ul>
+                        <li><a href="university.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                         <li><a href="course.html">COURSE</a></li>
+                         <li><a href="blog.html">BLOG</a></li>
+                         <li><a href="contact.html">CONTACT</a></li>            
+                    </ul>
+                </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            
+                <h1>Contact Us</h1>
+           </section>
+        
+               
+        <!<!-- Contact us -->
+        
+        <section class="location" style="width: 80%; margin: auto; padding: 80px 0;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11604.397400407606!2d77.010462!3d20.7074832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd72f8bde0f98c1%3A0xe8886ef3e98ee072!2sSHREEYASH%20SOCIETY!5e1!3m2!1sen!2sin!4v1622467378099!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        
+        <section class="contact-us" style="width: 80%; margin: auto; padding: 80px 0;">
+         
+            <div class="row">
+                
+                <div class="contact-col"> 
+                     <div>
+                         <i class="fa fa-home"></i>
+                         <span>
+                             <h5>Jawahar Nagar</h5>
+                             <p>Akola, Maharashtra</p>
+                         </span>
+                     </div>
+                    
+                    <div>
+                         <i class="fa fa-phone"></i>
+                         <span>
+                             <h5>+1 8596567453</h5>
+                             <p>Monday to Saturday, 10AM to 6PM</p>
+                         </span>
+                     </div>
+                    
+                    <div>
+                         <i class="fa fa-envelope-o"></i>
+                         <span>
+                             <h5>domain.name@domain.com</h5>
+                             <p>Email us your query</p>
+                         </span>
+                     </div>
+                </div>   
+                
+                 <div class="contact-col">   
+                     
+                     <form action="form-handler.php" method="post">
+                         <input type="text" name="name" placeholder="Enter Your Name" required>
+                         <input type="email" name="email" placeholder="Enter Email Address" required>
+                         <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                         <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                         <button type="submit" class="hero-btn red-btn">Send Message</button>
+                     </form>
+                     
+                    </div>    
+                 </div>     
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         <!--footer-->
+        
+         <section class="footer" style="  width: 100%; text-align: center; padding: 30px 0;">
+             <h4>About Us</h4>
+             <p>Google Fonts is a library of 1052 free licensed font families and APIs for conveniently using the fonts via CSS and Android.
+                 <br>We also provide delightful, beautifully crafted icons for common actions and items.
+                        </p>
+                        
+                        <div class="icon">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </div>    
+                        <p>Made with <i class="fa fa-heart-o"></i> by Aayushi Dhondphale</p>
+                            
+         </section>
+        
+        
+           
+        
+        
+        <!--javascript for toggle menu-->
+        <script>
+            var navLinks = document.getElementById("nav-links");
+            
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+            
+        </script>
+    </body>
+</html>

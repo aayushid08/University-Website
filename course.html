@@ -1,0 +1,137 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Course</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="university.css" rel="stylesheet" type="text/css"/>
+    
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,200&display=swap" rel="stylesheet">
+        
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- font awesome and cnd -->
+    </head>
+
+    
+    <body>
+        
+        <section class="sub-header" style="height: 50vh; width: 100%;
+                 background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/2.jpg);
+                 background-position: center; background-size: cover; text-align: center; color: #fff;">
+            <nav>
+                <a href="university.html"><img src="img/xx.jpeg" style="height: 40px; width: 140px;"></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>          <!-- font awesome - times -->
+                    <ul>
+                        <li><a href="university.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                         <li><a href="course.html">COURSE</a></li>
+                         <li><a href="blog.html">BLOG</a></li>
+                         <li><a href="contact.html">CONTACT</a></li>             
+                    </ul>
+                </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            
+                <h1>Our Courses</h1>
+           </section>
+        
+                <!--Courses content-->
+                
+              <section class="course" style="width: 80%; margin: auto; text-align: center; padding-top: 100px;">
+            <h1>Courses We Offer</h1>
+            <p>We also provide delightful, beautifully crafted icons for common actions and items.</p>
+          
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Google Fonts is a library of 1052 free licensed font families and APIs for conveniently using the fonts via CSS and Android.
+                   We also provide delightful, beautifully crafted icons for common actions and items.
+                </p>
+                </div>
+                 <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Google Fonts is a library of 1052 free licensed font families and APIs for conveniently using the fonts via CSS and Android.
+                   We also provide delightful, beautifully crafted icons for common actions and items.
+                </p>
+                </div>
+                 <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Google Fonts is a library of 1052 free licensed font families and APIs for conveniently using the fonts via CSS and Android.
+                   We also provide delightful, beautifully crafted icons for common actions and items.
+                </p>
+                </div>
+            </div>
+      
+        </section> 
+                
+        <!--Facilities-->        
+          <section class="facilities" style="width: 80%; text-align: center; margin: auto; padding-top: 50px;">
+            <h1>Our Facilities</h1>
+             <p> We also provide delightful, beautifully crafted icons for common actions and items.</p>
+            
+             <div class="row">
+                <div class="facilties-col">
+                    <img src="img/f.jpg">
+                    <h3>World Class Library</h3>
+                     <p> We also provide delightful, beautifully crafted icons for common actions and items.</p>
+                </div>
+                 
+                 <div class="facilties-col">
+                    <img src="img/e.jpg">
+                    <h3>Largest Play Ground</h3>
+                     <p> We also provide delightful, beautifully crafted icons for common actions and items.</p>
+                 </div>
+                 
+                 <div class="facilties-col">
+                    <img src="img/f.jpg">
+                    <h3>Tasty And Healthy Food</h3>
+                     <p> We also provide delightful, beautifully crafted icons for common actions and items.</p>
+                </div>
+            </div>
+       </section>      
+                
+                
+           
+         <!--footer-->
+        
+         <section class="footer" style="  width: 100%; text-align: center; padding: 30px 0;">
+             <h4>About Us<h4>
+             <p>Google Fonts is a library of 1052 free licensed font families and APIs for conveniently using the fonts via CSS and Android.
+              <br>We also provide delightful, beautifully crafted icons for common actions and items.
+                        </p>
+                        
+                        <div class="icon">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </div>    
+                        <p>Made with <i class="fa fa-heart-o"></i> by Aayushi Dhondphale</p>
+                            
+         </section>
+        
+        
+           
+        
+        
+        <!--javascript for toggle menu-->
+        <script>
+            var navLinks = document.getElementById("nav-links");
+            
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+            
+        </script>
+    </body>
+</html>
